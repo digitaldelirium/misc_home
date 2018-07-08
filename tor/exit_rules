@@ -1,0 +1,37 @@
+ExitPolicy accept *:22        # SSH
+ExitPolicy accept *:43        # WHOIS
+ExitPolicy accept *:53        # DNS
+ExitPolicy accept *:389       # LDAP
+ExitPolicy accept *:443       # HTTPS
+ExitPolicy accept *:464       # kpasswd
+ExitPolicy accept *:531       # IRC/AIM
+ExitPolicy accept *:543-544   # Kerberos
+ExitPolicy accept *:554       # RTSP
+ExitPolicy accept *:563       # NNTP over SSL
+ExitPolicy accept *:636       # LDAP over SSL
+ExitPolicy accept *:706       # SILC
+ExitPolicy accept *:749       # kerberos
+ExitPolicy accept *:873       # rsync
+ExitPolicy accept *:902-904   # VMware
+ExitPolicy accept *:981       # Remote HTTPS management for firewall
+ExitPolicy accept *:989-995   # FTP over SSL, Netnews Administration System, telnets, IMAP over SSL, ircs, POP3 over SSL
+ExitPolicy accept *:1194      # OpenVPN
+ExitPolicy accept *:1220      # QT Server Admin
+ExitPolicy accept *:1293      # PKT-KRB-IPSec
+ExitPolicy accept *:1500      # VLSI License Manager
+ExitPolicy accept *:1533      # Sametime
+ExitPolicy accept *:1677      # GroupWise
+ExitPolicy accept *:1723      # PPTP
+ExitPolicy accept *:1755      # RTSP
+ExitPolicy accept *:1863      # MSNP
+ExitPolicy accept *:4244      # whatsapp
+ExitPolicy accept *:5222-5223 # XMPP/Google Talk/Jabber/Apple iChat
+ExitPolicy accept *:5228-5230 # Google Cloud Messaging/Whatsapp/threema
+ExitPolicy accept *:6679      # IRC SSL
+ExitPolicy accept *:6697      # IRC SSL
+ExitPolicy accept *:8332-8333 # BitCoin
+ExitPolicy accept *:8443      # PCsync HTTPS
+ExitPolicy accept *:10000     # Network Data Management Protocol
+ExitPolicy accept *:11371     # OpenPGP hkp (http keyserver protocol)
+ExitPolicy accept *:19294     # Google Voice TCP
+ExitPolicy accept *:64738     # MumbleExitPolicy reject *:*</sub>
